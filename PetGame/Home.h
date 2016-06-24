@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CellsPets.h"
 
 @interface Home : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *tblHome;
 
 @end
