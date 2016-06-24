@@ -10,7 +10,7 @@
 		851595AA1D1CC1FA00C24E7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 851595A91D1CC1FA00C24E7E /* main.m */; };
 		851595AD1D1CC1FA00C24E7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 851595AC1D1CC1FA00C24E7E /* AppDelegate.m */; };
 		851595B01D1CC1FA00C24E7E /* PetGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 851595AE1D1CC1FA00C24E7E /* PetGame.xcdatamodeld */; };
-		851595B31D1CC1FA00C24E7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851595B21D1CC1FA00C24E7E /* ViewController.m */; };
+		851595B31D1CC1FA00C24E7E /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 851595B21D1CC1FA00C24E7E /* Start.m */; };
 		851595B61D1CC1FA00C24E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851595B41D1CC1FA00C24E7E /* Main.storyboard */; };
 		851595B81D1CC1FA00C24E7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851595B71D1CC1FA00C24E7E /* Images.xcassets */; };
 		851595BB1D1CC1FA00C24E7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851595B91D1CC1FA00C24E7E /* LaunchScreen.xib */; };
@@ -34,8 +34,8 @@
 		851595AB1D1CC1FA00C24E7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		851595AC1D1CC1FA00C24E7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		851595AF1D1CC1FA00C24E7E /* PetGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetGame.xcdatamodel; sourceTree = "<group>"; };
-		851595B11D1CC1FA00C24E7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		851595B21D1CC1FA00C24E7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		851595B11D1CC1FA00C24E7E /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		851595B21D1CC1FA00C24E7E /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		851595B51D1CC1FA00C24E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		851595B71D1CC1FA00C24E7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		851595BA1D1CC1FA00C24E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,10 +83,8 @@
 		851595A61D1CC1FA00C24E7E /* PetGame */ = {
 			isa = PBXGroup;
 			children = (
-				851595AB1D1CC1FA00C24E7E /* AppDelegate.h */,
-				851595AC1D1CC1FA00C24E7E /* AppDelegate.m */,
-				851595B11D1CC1FA00C24E7E /* ViewController.h */,
-				851595B21D1CC1FA00C24E7E /* ViewController.m */,
+				851595D21D1CC4B600C24E7E /* Main */,
+				851595D01D1CC46F00C24E7E /* Controllers */,
 				851595B41D1CC1FA00C24E7E /* Main.storyboard */,
 				851595B71D1CC1FA00C24E7E /* Images.xcassets */,
 				851595B91D1CC1FA00C24E7E /* LaunchScreen.xib */,
@@ -120,6 +118,24 @@
 				851595C51D1CC1FB00C24E7E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		851595D01D1CC46F00C24E7E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				851595B11D1CC1FA00C24E7E /* Start.h */,
+				851595B21D1CC1FA00C24E7E /* Start.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		851595D21D1CC4B600C24E7E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				851595AB1D1CC1FA00C24E7E /* AppDelegate.h */,
+				851595AC1D1CC1FA00C24E7E /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +240,7 @@
 			files = (
 				851595AD1D1CC1FA00C24E7E /* AppDelegate.m in Sources */,
 				851595B01D1CC1FA00C24E7E /* PetGame.xcdatamodeld in Sources */,
-				851595B31D1CC1FA00C24E7E /* ViewController.m in Sources */,
+				851595B31D1CC1FA00C24E7E /* Start.m in Sources */,
 				851595AA1D1CC1FA00C24E7E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
