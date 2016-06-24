@@ -18,6 +18,72 @@
             </objects>
             <point key="canvasLocation" x="153.59999999999999" y="292.51999999999998"/>
         </scene>
+        <!--Page View Controller-->
+        <scene sceneID="yvh-qe-onF">
+            <objects>
+                <pageViewController storyboardIdentifier="PageIntroController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Fwh-Bj-iUG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HYq-Vc-BdI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="561" y="292"/>
+        </scene>
+        <!--Intro-->
+        <scene sceneID="BY4-ew-XxE">
+            <objects>
+                <viewController storyboardIdentifier="Intro" id="9fG-nm-aYE" customClass="Intro" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m2G-Cx-HJ5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rjr-BK-r3j" userLabel="lblIntro">
+                                <rect key="frame" x="34" y="67" width="252" height="90"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="18"/>
+                                <color key="textColor" red="0.50196081399917603" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Y8x-FY-YqC" userLabel="imgIntro">
+                                <rect key="frame" x="16" y="196" width="288" height="194"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DuH-Fw-y0q" userLabel="btnIntro">
+                                <rect key="frame" x="66" y="504" width="189" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Quiero Jugar!!">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.50196081399917603" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnIntroPressed:" destination="9fG-nm-aYE" eventType="touchUpInside" id="vr9-tU-C8t"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnIntro" destination="DuH-Fw-y0q" id="kmh-OB-uds"/>
+                        <outlet property="imgIntro" destination="Y8x-FY-YqC" id="088-wK-GhZ"/>
+                        <outlet property="lblIntro" destination="Rjr-BK-r3j" id="hJg-gm-rSp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n5U-db-z3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957" y="292"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="aiU-nm-Tte">
+            <objects>
+                <viewController storyboardIdentifier="Home" id="shu-61-0Ee" customClass="Home" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vrg-ra-a7m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ltI-qf-Lqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1357" y="292"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

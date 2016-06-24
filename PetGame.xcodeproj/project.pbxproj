@@ -15,6 +15,12 @@
 		851595B81D1CC1FA00C24E7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851595B71D1CC1FA00C24E7E /* Images.xcassets */; };
 		851595BB1D1CC1FA00C24E7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851595B91D1CC1FA00C24E7E /* LaunchScreen.xib */; };
 		851595C71D1CC1FB00C24E7E /* PetGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 851595C61D1CC1FB00C24E7E /* PetGameTests.m */; };
+		851595D51D1CCEB000C24E7E /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 851595D41D1CCEAF00C24E7E /* Intro.m */; };
+		851595D81D1CCFF100C24E7E /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 851595D71D1CCFF100C24E7E /* Declarations.m */; };
+		851595DD1D1CE36800C24E7E /* deportes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 851595DA1D1CE36800C24E7E /* deportes.jpg */; };
+		851595DE1D1CE36800C24E7E /* mascota.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 851595DB1D1CE36800C24E7E /* mascota.jpg */; };
+		851595DF1D1CE36800C24E7E /* play.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 851595DC1D1CE36800C24E7E /* play.jpg */; };
+		851595E21D1CEC1C00C24E7E /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 851595E11D1CEC1C00C24E7E /* Home.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,15 @@
 		851595C01D1CC1FB00C24E7E /* PetGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		851595C51D1CC1FB00C24E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		851595C61D1CC1FB00C24E7E /* PetGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetGameTests.m; sourceTree = "<group>"; };
+		851595D31D1CCEAF00C24E7E /* Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intro.h; sourceTree = "<group>"; };
+		851595D41D1CCEAF00C24E7E /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
+		851595D61D1CCFF100C24E7E /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		851595D71D1CCFF100C24E7E /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		851595DA1D1CE36800C24E7E /* deportes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deportes.jpg; sourceTree = "<group>"; };
+		851595DB1D1CE36800C24E7E /* mascota.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mascota.jpg; sourceTree = "<group>"; };
+		851595DC1D1CE36800C24E7E /* play.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = play.jpg; sourceTree = "<group>"; };
+		851595E01D1CEC1B00C24E7E /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		851595E11D1CEC1C00C24E7E /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +98,7 @@
 		851595A61D1CC1FA00C24E7E /* PetGame */ = {
 			isa = PBXGroup;
 			children = (
+				851595D91D1CE36800C24E7E /* imgs */,
 				851595D21D1CC4B600C24E7E /* Main */,
 				851595D01D1CC46F00C24E7E /* Controllers */,
 				851595B41D1CC1FA00C24E7E /* Main.storyboard */,
@@ -125,6 +141,10 @@
 			children = (
 				851595B11D1CC1FA00C24E7E /* Start.h */,
 				851595B21D1CC1FA00C24E7E /* Start.m */,
+				851595D31D1CCEAF00C24E7E /* Intro.h */,
+				851595D41D1CCEAF00C24E7E /* Intro.m */,
+				851595E01D1CEC1B00C24E7E /* Home.h */,
+				851595E11D1CEC1C00C24E7E /* Home.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -134,8 +154,20 @@
 			children = (
 				851595AB1D1CC1FA00C24E7E /* AppDelegate.h */,
 				851595AC1D1CC1FA00C24E7E /* AppDelegate.m */,
+				851595D61D1CCFF100C24E7E /* Declarations.h */,
+				851595D71D1CCFF100C24E7E /* Declarations.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		851595D91D1CE36800C24E7E /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				851595DA1D1CE36800C24E7E /* deportes.jpg */,
+				851595DB1D1CE36800C24E7E /* mascota.jpg */,
+				851595DC1D1CE36800C24E7E /* play.jpg */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				851595B61D1CC1FA00C24E7E /* Main.storyboard in Resources */,
+				851595DF1D1CE36800C24E7E /* play.jpg in Resources */,
+				851595DD1D1CE36800C24E7E /* deportes.jpg in Resources */,
 				851595BB1D1CC1FA00C24E7E /* LaunchScreen.xib in Resources */,
+				851595DE1D1CE36800C24E7E /* mascota.jpg in Resources */,
 				851595B81D1CC1FA00C24E7E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,8 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851595D51D1CCEB000C24E7E /* Intro.m in Sources */,
 				851595AD1D1CC1FA00C24E7E /* AppDelegate.m in Sources */,
+				851595D81D1CCFF100C24E7E /* Declarations.m in Sources */,
 				851595B01D1CC1FA00C24E7E /* PetGame.xcdatamodeld in Sources */,
+				851595E21D1CEC1C00C24E7E /* Home.m in Sources */,
 				851595B31D1CC1FA00C24E7E /* Start.m in Sources */,
 				851595AA1D1CC1FA00C24E7E /* main.m in Sources */,
 			);
